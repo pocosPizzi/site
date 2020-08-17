@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.home{
+    display: flex;
+    width: 100%;
+    background-image: url(../../img/agua.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.homeDestaq{
+    font-size: 70px;
+}
+
+.bannerHome{
+    border-radius: 10px;
+    width: 60%;
+}
+
+.contentHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    padding: 15px;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgb(95, 95, 95);
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 768px){
+    .bannerHome{
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .homeDestaq{
+        font-size: 40px;
+    }
+    .contentHome{
+        margin-top: 0;
+        width: 90%;
+    }
+
+    .home{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+    .bannerHome{
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .contentHome{
+        margin-top: 0;
+        width: 90%;
+    }
+
+    .homeDestaq{
+        font-size: 30px;
+    }
+
+    .home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
