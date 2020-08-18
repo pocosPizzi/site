@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.service{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(../../img/servico.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+@media screen and (max-width: 768px){
+    .service{
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}

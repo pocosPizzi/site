@@ -1,0 +1,40 @@
+#orcamento{
+    color: #1330d3;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: rgb(228, 228, 241);
+}
+
+.fragmentBudget{
+   display: flex;
+}
+
+.textOrcamento{
+    margin-bottom:30px !important;
+    margin-left:10px !important;
+    width: 50%;
+}
+
+.buttonOrcamento{
+    width: 25%;
+}
+
+@media screen and (max-width: 768px){
+    .fragmentBudget{
+       justify-content: center;
+       align-items: center;
+     }
+    .fragmentBudget{
+        flex-direction: column;
+     }
+    .textOrcamento{
+        width: 90%;
+        margin-bottom:10px !important;
+    }
+
+    .buttonOrcamento{
+        margin-top:20px !important;
+        width: 50%;
+    }
+}
+
