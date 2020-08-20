@@ -1,40 +1,72 @@
 #orcamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #1330d3;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 80px;
     background-color: rgb(228, 228, 241);
 }
 
-.fragmentBudget{
-   display: flex;
+.contentBudget{
+    width: 100%;
+    text-align: end;
+    margin-bottom: 10px;
+}
+.labelBudget{
+    padding: 50px;
 }
 
-.textOrcamento{
-    margin-bottom:30px !important;
-    margin-left:10px !important;
-    width: 50%;
+.inputBudget{
+    margin-right: 18%;
+    width: 60%;
+    font-size: x-large;
 }
 
-.buttonOrcamento{
-    width: 25%;
+.buttonBudget{
+    border: 0.4px solid ;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 5px;
+    color: #1330d3;
+    width: 15%;
+    height: 35px;
+}
+
+.buttonBudget:hover{
+    color: #f5f5f5;
+    background-color: #1330d3;
 }
 
 @media screen and (max-width: 768px){
-    .fragmentBudget{
-       justify-content: center;
-       align-items: center;
-     }
-    .fragmentBudget{
-        flex-direction: column;
-     }
-    .textOrcamento{
-        width: 90%;
-        margin-bottom:10px !important;
+    #orcamento{
+        padding-bottom: 50px;
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
     }
 
-    .buttonOrcamento{
-        margin-top:20px !important;
+    .contentBudget{
+        width: 90%;
+        text-align: start;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .labelBudget{
+        padding: 5px;
+    }
+    
+    .inputBudget{
+        width: 100%;
+        font-size: large;
+        margin-right: 0%;
+    }
+
+    .buttonBudget{
+        border-radius: 5px;
+        color: #1330d3;
         width: 50%;
+        height: 30px;
     }
 }
 

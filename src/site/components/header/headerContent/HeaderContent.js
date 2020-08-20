@@ -2,10 +2,8 @@ import React from 'react';
 import './HeaderContent.css';
 import Logo from '../../../img/logoPizzi.jpeg';
 import ListIcon from '@material-ui/icons/List';
-import Sublime from '../../../img/sublime.png';
 import HeaderContainer from '../headerContainer/HeaderContainer';
 import ButtonHeader from '../buttonHeader/ButtonHeader';
-import { Link } from 'react-router-dom';
 
 export default function HeaderContent(){
 

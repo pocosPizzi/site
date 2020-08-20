@@ -1,7 +1,7 @@
 import React from 'react';
-import Missao from '../../img/teamwork-makes-the-dream-work.jpg';
-import Visao from '../../img/visao.jpg';
-import Valores from '../../img/valores.jpg';
+import Missao from '../../img/missao01.png';
+import Visao from '../../img/visao01.png';
+import Valores from '../../img/valores01.png';
 import './MissaoVisaoValores.css';
 
 export default function MissaoVisaoValores(){
@@ -11,14 +11,14 @@ export default function MissaoVisaoValores(){
                 <img className="imgMissaoVisaoValore" src={Missao} alt="img missão"/>
                 <h1>MISSÃO</h1>
                 <p>
-                    Atuar a favor de mamães que buscam o seu direito ao salário maternidade.
+                    Ser provedor desse bem tão precioso chamado água, contribuindo com a distribuição para muitas pessoas e até mesmo comunidades inteiras.
                 </p>
             </div>
             <div className="visao" >
                 <img className="imgMissaoVisaoValore" src={Visao} alt="img visao"/>
                 <h1>VISÃO</h1>
                 <p>
-                     Ser referência nacional entre as mamães para a busca e garantia do salário maternidade.  
+                     Ser referência na área onde atuamos, expandindo no território nacional de forma sermos reconhecidos por todo o Brasil.  
                 </p>
             </div>
             <div className="valores" >
@@ -26,8 +26,7 @@ export default function MissaoVisaoValores(){
                 <h1>VALORES</h1>
                 <p>Serenidade</p>
                 <p>Responsabildade</p>
-                <p>Respeito</p>
-                <p>Carinho</p>
+                <p>Respeito pelo meio ambiente</p>
             </div>
         </section>
     )

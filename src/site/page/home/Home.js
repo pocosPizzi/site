@@ -21,7 +21,7 @@ export default function Home(){
             </div>
             <div className="contentHome">
                 <h1 className="homeDestaq">
-                   Cerca de 70% de água no corpo humano.
+                   Há cerca de 70% de água no corpo humano.
                 </h1>
                 
             </div>

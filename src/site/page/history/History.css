@@ -2,14 +2,16 @@
 
 .history{
     font-family: 'Poppins', sans-serif;
-    color: #302d2d;
+    color: #122888;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .bannerHistory{
-    width: 60%;
+    border-radius: 5px;
+    width: 35%;
+    margin: 2%;
 }
 
 .pHistory{
@@ -18,12 +20,12 @@
 
 @media screen and (max-width: 768px){
    .history{
-       flex-direction: column;
+       flex-direction: column-reverse;
    }
 
    .bannerHistory{
     width: 90%;
-    margin-left: 10%;
+    padding: 0px;
    }
    
    .pHistory{
