@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-.missaoVisaoValores{
+.missaoVisaoValores {
     font-family: 'Poppins', sans-serif;
     color: #122888;
     display: flex;
@@ -9,44 +8,40 @@
     width: 100%;
 }
 
-.missao{
-    padding:40px;
+.missao {
+    padding: 40px;
     width: 30%;
 }
 
-.visao{
+.visao {
     width: 30%;
 }
 
-.valores{
+.valores {
     width: 30%;
 }
 
-.imgMissaoVisaoValore{
+.imgMissaoVisaoValore {
     width: 50%;
     border-radius: 50px;
 }
 
-
-@media screen and (max-width: 768px){
-    .missaoVisaoValores{
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
+@media screen and (max-width: 768px) {
+    .missaoVisaoValores {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-
-    .missao{
+    .missao {
         padding: 0px;
         width: 90%;
         padding-bottom: 30px;
     }
-    
-    .visao{
+    .visao {
         width: 90%;
         padding-bottom: 30px;
     }
-    
-    .valores{
+    .valores {
         width: 90%;
         padding-bottom: 30px;
     }

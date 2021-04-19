@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
-.homeImage{
+.homeImage {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-shadow: 1px 1px 0px rgb(5, 5, 5);
@@ -18,31 +17,29 @@
     padding-bottom: 400px;
 }
 
-.titleImg{
+.titleImg {
     font-size: 3em;
 }
 
-.pImg{
+.pImg {
     margin-top: 0px;
     margin-bottom: 50px;
     font-size: 1.5em;
 }
 
-.buttonParallax:hover{
-    color:#c69f36;
+.buttonParallax:hover {
+    color: #c69f36;
     background-color: #4d4d4d;
 }
 
-@media screen and (max-width: 500px){
-    .homeImage{
+@media screen and (max-width: 500px) {
+    .homeImage {
         padding-bottom: 300px;
     }
-
-    .titleImg{
+    .titleImg {
         font-size: 2em;
     }
-
-    .pImg{
+    .pImg {
         margin-top: 0;
         font-size: 1em;
     }

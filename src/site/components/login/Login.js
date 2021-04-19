@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import {
   Avatar,
   Button,
@@ -31,30 +31,30 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function SignIn() {
-    const [req, setReq] = useState({
-        cpf:"",
-        birthday:""
-    })
+  const [req, setReq] = useState({
+    cpf: "",
+    birthday: ""
+  })
   const classes = useStyles();
 
   const handleChange = (evt) => {
     const value = evt.target.value;
     console.log(value)
     setReq({
-        ...req,
-        [evt.target.name]: value
+      ...req,
+      [evt.target.name]: value
     });
-}
+  }
 
   const getDataMother = () => {
-    axios.get(`https://sublime-prev.herokuapp.com/api/process-mothers/mother-client/${req.cpf}/${req.birthday}`,{
-        }).then(res => {
-            localStorage.setItem('dataMother', res.data)
-            localStorage.setItem('hasDataMother',true)
-        }).catch(error => {
-            localStorage.setItem('hasDataMother',false)
-        });
-}
+    axios.get(`https://sublime-prev.herokuapp.com/api/process-mothers/mother-client/${req.cpf}/${req.birthday}`, {
+    }).then(res => {
+      localStorage.setItem('dataMother', res.data)
+      localStorage.setItem('hasDataMother', true)
+    }).catch(error => {
+      localStorage.setItem('hasDataMother', false)
+    });
+  }
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />

@@ -1,16 +1,16 @@
-.headerContainer{
+.headerContainer {
     display: flex;
     position: fixed;
     top: 0em;
     background-color: #f5f5f5;
     width: 100%;
     opacity: 90%;
-    height:auto;
+    height: auto;
     z-index: 3;
 }
 
-@media screen and (max-width: 500px){
-    .headerContainer{
+@media screen and (max-width: 500px) {
+    .headerContainer {
         justify-content: space-between;
     }
 }

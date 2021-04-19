@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-.contactSite{
+.contactSite {
     font-family: 'Montserrat' sans-serif;
     color: #122888;
     display: flex;
@@ -10,85 +9,78 @@
     padding-top: 50px;
 }
 
-.contentGeral{
+.contentGeral {
     width: 50%;
 }
 
-.bannerContac{
+.bannerContac {
     width: 70%;
 }
 
-.contentContact{
+.contentContact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
-.contactContent h1{
+.contactContent h1 {
     padding-top: 40px;
     margin-bottom: 0;
 }
 
-.redeSocial{
+.redeSocial {
     cursor: pointer;
     display: hide;
     color: inherit;
 }
 
-.redeSocial h1{
+.redeSocial h1 {
     margin: 5px;
     font-size: 7em;
 }
 
-.logoSyst{
-    
+.logoSyst {
     width: 12%;
     margin-top: 5%;
 }
 
-.links{
+.links {
     font-size: 5em;
     margin: 0;
 }
 
-.map{
-    width:100%;
+.map {
+    width: 100%;
     height: 400px;
     margin-top: 30px;
 }
 
-@media screen and (max-width: 768px){
-    .contactSite{
+@media screen and (max-width: 768px) {
+    .contactSite {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-bottom: 10px;
     }
-
-    .contentGeral{
+    .contentGeral {
         font-size: 0.8em;
         width: 90%;
         justify-content: center;
     }
-
-    .bannerContac{
+    .bannerContac {
         width: 80%;
     }
-
-    .contactContent h1{
+    .contactContent h1 {
         padding-top: 0;
         margin-bottom: 0;
     }
-
-    .logoSyst{
+    .logoSyst {
         width: 22%;
         margin-top: 4%;
     }
-
-    .map{
+    .map {
         margin-top: 30px;
-        width:95%;
+        width: 95%;
     }
 }

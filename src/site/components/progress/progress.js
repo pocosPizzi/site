@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
 const useStyles = makeStyles((theme) => ({
@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     '& > * + *': {
       marginLeft: theme.spacing(2),
-      
+
     },
   },
 }));
@@ -17,7 +17,7 @@ export default function CircularIndeterminate() {
 
   return (
     <div className={classes.root}>
-      <CircularProgress style={{marginLeft:' 45%', marginTop:' 20%'}} />
+      <CircularProgress style={{ marginLeft: ' 45%', marginTop: ' 20%' }} />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import ButtonDefault from '../../components/buttons/button_default/ButtonDefault';
 import './serviceParallax.css';
 
-export default function ServiceParallax(){
+export default function ServiceParallax() {
     return (
         <section id="servicos" className="service">
             <h1 className="titleImg">
@@ -11,7 +11,7 @@ export default function ServiceParallax(){
             <p className="pImg">
                 Limpeza ou manutenção?
             </p>
-            <ButtonDefault name="Orçamento"/>
+            <ButtonDefault name="Orçamento" />
         </section>
     )
 }

@@ -1,32 +1,32 @@
 import React from 'react';
 import './HeaderContent.css';
-import Logo from '../../../img/logoPizzi.jpeg';
+import Logo from '../../../img/logo.png';
 import ListIcon from '@material-ui/icons/List';
 import HeaderContainer from '../headerContainer/HeaderContainer';
 import ButtonHeader from '../buttonHeader/ButtonHeader';
 
-export default function HeaderContent(){
+export default function HeaderContent() {
 
     const resetarCheckMenu = () => {
         var elemento = window.document.getElementById("btMenu");
-        elemento.checked=false
+        elemento.checked = false
     }
 
     return (
         <>
             <HeaderContainer>
-                <div className="logo">
-                    <img className="simbolLogo" src={Logo} alt="website logo"/>
-                </div>
+                <a href="https://poco-pizzi-back-office.herokuapp.com" className="logo" target="_blank" rel="noopener noreferrer">
+                    <img className="simbolLogo" src={Logo} alt="website logo" />
+                </a>
                 <div className="nav">
-                    <ButtonHeader name="HOME" href="#home"/>
-                    <ButtonHeader name="QUEM SOMOS" href="#quemSomos"/>
-                    <ButtonHeader name="SERVIÇOS" href="#servicos"/>
-                    <ButtonHeader name="ORÇAMENTO" href="#orcamento"/>
-                    <ButtonHeader name="CONTATO" href="#contato"/>
+                    <ButtonHeader name="HOME" href="#home" />
+                    <ButtonHeader name="QUEM SOMOS" href="#quemSomos" />
+                    <ButtonHeader name="SERVIÇOS" href="#servicos" />
+                    <ButtonHeader name="ORÇAMENTO" href="#orcamento" />
+                    <ButtonHeader name="CONTATO" href="#contato" />
                     <input type="checkbox" id="btMenu"></input>
-                    <label htmlFor="btMenu"  className="menuHamburguer">
-                        <ListIcon style={{fontSize: "3.0rem"}}/>
+                    <label htmlFor="btMenu" className="menuHamburguer">
+                        <ListIcon style={{ fontSize: "3.0rem" }} />
                     </label>
                     <ul className="navResposinvo">
                         <li className="liNav">

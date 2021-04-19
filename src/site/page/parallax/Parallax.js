@@ -2,7 +2,7 @@ import React from 'react';
 import ButtonDefault from '../../components/buttons/button_default/ButtonDefault';
 import './Parallax.css';
 
-export default function Parallax(){
+export default function Parallax() {
     return (
         <section id="home" className="homeImage">
             <h1 className="titleImg">
@@ -12,7 +12,7 @@ export default function Parallax(){
                 Peça agora mesmo seu orçamento
             </p>
 
-            <ButtonDefault name="Orçamento"/>
+            <ButtonDefault name="Orçamento" />
         </section>
     )
 }

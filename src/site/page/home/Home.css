@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-.home{
+.home {
     display: flex;
     width: 100%;
     background-image: url(../../img/agua.png);
@@ -11,16 +11,16 @@
     padding-bottom: 50px;
 }
 
-.homeDestaq{
+.homeDestaq {
     font-size: 70px;
 }
 
-.bannerHome{
+.bannerHome {
     border-radius: 10px;
     width: 60%;
 }
 
-.contentHome{
+.contentHome {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,45 +34,38 @@
     font-size: 1.3em;
 }
 
-@media screen and (max-width: 768px){
-    .bannerHome{
+@media screen and (max-width: 768px) {
+    .bannerHome {
         margin-top: 80px;
         width: 100%;
     }
-
-    .homeDestaq{
+    .homeDestaq {
         font-size: 40px;
     }
-    .contentHome{
+    .contentHome {
         margin-top: 0;
         width: 90%;
     }
-
-    .home{
+    .home {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
 }
 
-
-
-@media screen and (max-width: 500px){
-    .bannerHome{
+@media screen and (max-width: 500px) {
+    .bannerHome {
         margin-top: 80px;
         width: 100%;
     }
-
-    .contentHome{
+    .contentHome {
         margin-top: 0;
         width: 90%;
     }
-
-    .homeDestaq{
+    .homeDestaq {
         font-size: 30px;
     }
-
-    .home{
+    .home {
         flex-direction: column;
         justify-content: center;
         align-items: center;

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
-.service{
+.service {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-shadow: 1px 1px 0px rgb(5, 5, 5);
@@ -18,8 +17,8 @@
     padding-bottom: 300px;
 }
 
-@media screen and (max-width: 768px){
-    .service{
+@media screen and (max-width: 768px) {
+    .service {
         padding-top: 200px;
         padding-bottom: 200px;
     }

@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-#btMenu{
+#btMenu {
     display: none;
 }
 
-.navResposinvo{
+.navResposinvo {
     display: none;
 }
 
-.logo{
-    display:flex;
+.logo {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -17,62 +16,58 @@
     width: 10%;
 }
 
-.simbolLogo{
-    width:120px;
-    height:48px;
+.simbolLogo {
+    width: 120px;
+    height: 48px;
     margin: 3px;
     cursor: pointer;
 }
 
-.sublimeLogo{
+.sublimeLogo {
     width: 80%;
     height: 10px;
     margin: 3px;
     cursor: pointer;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
 }
 
-.menuHamburguer{
+.menuHamburguer {
     display: none;
 }
 
-@media screen and (max-width: 752px){
-    .logo{
+@media screen and (max-width: 752px) {
+    .logo {
         width: 15%;
     }
-
-    .nav{
+    .nav {
         width: 85%;
     }
 }
 
-@media screen and (max-width: 500px){
-    .logo{
+@media screen and (max-width: 500px) {
+    .logo {
         width: 50%;
     }
-
-    .nav{
+    .nav {
         justify-content: flex-end;
         padding-right: 20px;
     }
-
-    .menuHamburguer{
+    .menuHamburguer {
         display: flex;
         width: 30%;
         color: #6e717a;
     }
-
-    .navResposinvo{
+    .navResposinvo {
         display: flex;
         font-family: 'Montserrat' sans-serif;
         font-weight: bold;
-        color:#fff;
+        color: #fff;
         font-size: 14px;
         position: absolute;
         left: -100%;
@@ -81,26 +76,21 @@
         flex-direction: column;
         background-color: #6e717a;
         width: 100%;
-        margin:0%;
+        margin: 0%;
         padding: 0%;
         padding-bottom: 2%;
         padding-top: 2%;
     }
-
-    #btMenu:checked ~ .navResposinvo{
+    #btMenu:checked~.navResposinvo {
         position: absolute;
-        left:0%;
+        left: 0%;
         top: 60px;
-
     }
-
-    .linkNav{
+    .linkNav {
         text-decoration: none;
         color: inherit;
     }
-    
-    .labelName{
-        
+    .labelName {
         font-size: 1.7em;
     }
 }

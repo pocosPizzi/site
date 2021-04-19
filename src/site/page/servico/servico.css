@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-.servico{
+.servico {
     font-family: 'Poppins', sans-serif;
     color: #122888;
     display: flex;
     flex-direction: column;
-    justify-content:  space-around;
+    justify-content: space-around;
     flex-wrap: nowrap;
     width: 100%;
     background-position: center top;
@@ -16,42 +15,40 @@
     padding-bottom: 50px;
 }
 
-.content{
+.content {
     display: flex;
 }
 
-.contentServico{
+.contentServico {
     border-radius: 10px;
     background-color: #fff;
     width: 49%;
 }
 
-.contentServico h1{
+.contentServico h1 {
     font-size: 1em;
     padding-right: 20px;
     padding-left: 20px;
 }
 
-.contentServico p{
+.contentServico p {
     padding-right: 20px;
     padding-left: 20px;
 }
 
-@media screen and (max-width: 750px){
-    .servico{
+@media screen and (max-width: 750px) {
+    .servico {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-bottom: 200px;
     }
-
-    .content{
+    .content {
         flex-direction: column;
         justify-items: center;
         align-items: center;
     }
-
-    .contentServico{
+    .contentServico {
         border-radius: 0px;
         background-color: #fff;
         width: 90%;
